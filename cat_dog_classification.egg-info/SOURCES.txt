@@ -1,0 +1,7 @@
+README.md
+setup.py
+cat_dog_classification.egg-info/PKG-INFO
+cat_dog_classification.egg-info/SOURCES.txt
+cat_dog_classification.egg-info/dependency_links.txt
+cat_dog_classification.egg-info/requires.txt
+cat_dog_classification.egg-info/top_level.txt
