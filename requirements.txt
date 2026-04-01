@@ -6,4 +6,5 @@ scikit-learn
 dill
 Flask
 opencv-python
+stremlit
 #-e .
