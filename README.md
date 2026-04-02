@@ -48,30 +48,6 @@ The model achieves competitive accuracy without requiring GPUs, making it lightw
 - 📈 **Modular Code** - Well-organized components for easy modification
 - 🚀 **Lightweight** - Runs on CPU without GPU requirements
 
-## 📁 Project Structure
-Cat-Dog-Classification/
-│
-├── app.py # Streamlit web application
-├── model.pkl # Trained classifier
-├── kmeans.pkl # KMeans vocabulary model
-├── requirements.txt # Dependencies
-│
-├── data/
-│ ├── train/ # Training images (cat/, dog/ subfolders)
-│ │ ├── cat/
-│ │ └── dog/
-│ └── test/ # Test images
-│
-├── src/
-│ ├── components/
-│ │ ├── data_ingestion.py # Load and organize dataset
-│ │ ├── feature_extraction.py # SIFT + BoVW pipeline
-│ │ └── model_training.py # Train and save classifier
-│ │
-│ └── utils/ # Helper functions
-│
-└── README.md
-
 
 ## 🛠️ Installation
 
