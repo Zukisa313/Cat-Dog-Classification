@@ -101,7 +101,7 @@ Cat-Dog-Classification/
 ```bash
 git clone https://github.com/yourusername/cat-dog-classification.git
 cd cat-dog-classification
-
+```
 # Windows
 python -m venv venv
 venv\Scripts\activate
