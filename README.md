@@ -7,22 +7,6 @@
 
 An end-to-end computer vision application that classifies images of cats and dogs using **classical computer vision techniques** (SIFT + Bag of Visual Words) instead of deep learning. Deployed with an interactive web interface using Streamlit.
 
-## 🎯 Live Demo
-
-> *Coming soon: Deployed on Streamlit Cloud*
-
-## 📋 Table of Contents
-- [Project Overview](#project-overview)
-- [How It Works](#how-it-works)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Example Workflow](#example-workflow)
-- [Real-World Applications](#real-world-applications)
-- [Future Improvements](#future-improvements)
-- [Author](#author)
-- [License](#license)
 
 ## 🔍 Project Overview
 
@@ -102,10 +86,26 @@ Cat-Dog-Classification/
 git clone https://github.com/yourusername/cat-dog-classification.git
 cd cat-dog-classification
 ```
-# Windows
+2. **Create a virtual environment**
+```
 python -m venv venv
 venv\Scripts\activate
+```
+3. **Install dependencies**
+```
+pip install -r requirements.txt
+```
 
-# Mac/Linux
-python -m venv venv
-source venv/bin/activate
+4. **Train the model (or use pretrained model)**
+```
+python src/components/model_training.py
+```
+5. **Run the Streamlit App**
+```
+python -m streamlit run app.py
+```
+
+
+
+
+
